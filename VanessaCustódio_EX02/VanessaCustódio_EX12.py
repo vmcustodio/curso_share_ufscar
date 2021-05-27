@@ -1,0 +1,5 @@
+tempo = int(input("digite o tempo de duração em segundos: "))
+horas = int(tempo/3600)
+minutos = int((tempo%3600)/60)
+segundos = int((tempo%3600)%60)
+print("{}:{}:{}" .format(horas,minutos,segundos))

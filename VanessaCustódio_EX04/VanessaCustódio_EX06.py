@@ -1,0 +1,9 @@
+dividendo = int(input('digite o primeiro numero: '))
+divisor = int(input('digite o segundo numero: '))
+cont = 1
+resultado = 0
+x = dividendo
+while x >= divisor:
+    x -= divisor
+    resultado += 1
+print(f"{dividendo} / {divisor} = {resultado} com o resto de {x}")
